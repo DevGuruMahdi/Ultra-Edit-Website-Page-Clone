@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 150px;
+}
+
+.logo {}
+
+.logo img {
+    width: 164px;
+}
+
+nav {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.content {
+    font-family: 'poppins';
+    margin: 100px 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 24px;
+    padding: 18px 0px;
+}
+
+.content button {
+    margin-top: 15px;
+    padding: 16px 20px;
+    background-color: #02B3CD;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.content button:hover {
+    cursor: pointer;
+    background-color: #188192;
+    transition: .2s ease-in-out all;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.up-grid {
+    margin: 0px 150px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 80px 600px;
+
+}
+
+.up-grid h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.up-grid h2 small {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.grid {
+    margin: 50px 150px;
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    gap: 20px;
+
+
+}
+.item {
+    padding: 15px;
+    background-color: rgba(226, 238, 234, 0.381);
+    text-align: center;
+}
+.grid .item h4 {
+    margin-top: 5px;
+    
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+}
+.grid .item button {
+    margin-top: 50px;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+.grid .item .thirtytwo {
+    background-color: #02B3CD ;
+}
+.grid .item .sixtyfour {
+    background-color: #3ab038;
+}
+.grid .item .thirtytwo:hover {
+    background-color: #09A6BD ;
+    transition: .3s ease-in;
+}
+.grid .item .sixtyfour:hover {
+    background-color: #81C780;
+    transition: .3s ease-in; 
+}
+p {
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #222222;
+}
